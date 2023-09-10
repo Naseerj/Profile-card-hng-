@@ -75,3 +75,16 @@ button{
         /* margin: 0 auto; */
     }
 }
+
+@media (max-width: 500px) {
+    .overalldiv{
+        flex-direction: column;
+        height: 400px;
+    }
+    .infodiv{
+        /* text-align: center; */
+        /* align-content: center; */
+        /* margin: 0 auto; */
+        width: 200px;
+    }
+}
